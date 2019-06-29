@@ -26,7 +26,8 @@
 
 7.github的pages设置，新建一个仓库命名为自己的username.github.io 并设置github pages（这一步可以使仓库直接作为网页来访问，）将生成的网址复制到config.toml文件中 的baseurl。
 
-8.配置config.toml文件，使用vscode打开该文件，将github生成的网址复制到（baseurl：）项目后，（theme：）填写主题文件夹名称，其他的自行参考官网文档。
-9.cmd 使用hugo server -t themename 可以自定义主题，只可以可以在本地地址1313访问新建的.md blog。关闭hugo server后就不能继续访（必须先将新建的blog先打开设置表头，将draft设置为 false，这一步是不将blog设置为草稿）。
+8.配置config.toml文件，使用vscode打开该文件，将github生成的网址复制到（baseurl：）项目后，（theme：）填写主题文件夹名称，默认情况下会有draft，将其改为false，或者直接删除。其他属性的自行参考官网文档。（**可以直接将下载的themes中examplesite文件夹下config.toml复制到网站根目录下。**）
 
-10.若在网页1313上访问到blog，则会在blog文件夹下生成public文件夹。若想在远程也访问，只需在public文件夹下运行git bash ，将public文件夹设为git本地仓库，最后再与github的对应仓库远程连接，就实现了github+hugo组成的一个个人网页blog，config.toml，配置用于blog网页排版，涉及的内容较多，需要查看文档以了解具体语法。
+9.cmd进入到该网站根目录下，例如 cd C:\Hugo\Sites\Test-blog 使用hugo server -t themename 将主题应用到网站并且可以查看，只能在本地地址1313访问新建的.md blog。关闭hugo server后就不能继续访（必须先将新建的blog先打开设置表头，将draft设置为 false，这一步是不将blog设置为草稿）。
+
+10.还是在网站根目录下，cmd运行hugo，则会在blog文件夹下生成public文件夹。若想在远程也访问，只需在public文件夹下运行git bash ，将public文件夹设为git本地仓库，最后再与github的对应仓库远程连接，就实现了github+hugo组成的一个个人网页blog，config.toml，配置用于blog网页排版，涉及的内容较多，需要查看文档以了解具体语法。
