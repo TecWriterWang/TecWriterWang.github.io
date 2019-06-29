@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My first hugo blog</title>
+    <link>http://TecWriterWang.github.io/</link>
+    <description>Recent content on My first hugo blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-zh</language>
+    <lastBuildDate>Sat, 29 Jun 2019 12:20:31 +0800</lastBuildDate>
+    
+	<atom:link href="http://TecWriterWang.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>http://TecWriterWang.github.io/2019/06/test/</link>
+      <pubDate>Sat, 29 Jun 2019 12:20:31 +0800</pubDate>
+      
+      <guid>http://TecWriterWang.github.io/2019/06/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
