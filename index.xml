@@ -1,23 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My first hugo blog</title>
+    <title>Welcome to the TecWriter World</title>
     <link>http://TecWriterWang.github.io/</link>
-    <description>Recent content on My first hugo blog</description>
+    <description>Recent content on Welcome to the TecWriter World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
-    <lastBuildDate>Sat, 29 Jun 2019 12:20:31 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://TecWriterWang.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test</title>
-      <link>http://TecWriterWang.github.io/2019/06/test/</link>
-      <pubDate>Sat, 29 Jun 2019 12:20:31 +0800</pubDate>
+      <title>Hugo Translation</title>
+      <link>http://TecWriterWang.github.io/post/2019/07/01/hugo-translation/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://TecWriterWang.github.io/2019/06/test/</guid>
-      <description></description>
+      <guid>http://TecWriterWang.github.io/post/2019/07/01/hugo-translation/</guid>
+      <description>&lt;p&gt;Hugo Translation&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Learn Electrical Component</title>
+      <link>http://TecWriterWang.github.io/post/2019/07/01/learn-electrical-component/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://TecWriterWang.github.io/post/2019/07/01/learn-electrical-component/</guid>
+      <description>&lt;p&gt;Learn Electrical Component&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Learn English</title>
+      <link>http://TecWriterWang.github.io/post/2019/07/01/learn-english/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://TecWriterWang.github.io/post/2019/07/01/learn-english/</guid>
+      <description>&lt;p&gt;Learn English&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Learn HTML5</title>
+      <link>http://TecWriterWang.github.io/post/2019/07/01/learn-html5/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://TecWriterWang.github.io/post/2019/07/01/learn-html5/</guid>
+      <description>&lt;p&gt;Learn HTML5&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Learn Markdown</title>
+      <link>http://TecWriterWang.github.io/post/2019/07/01/learn-markdown/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://TecWriterWang.github.io/post/2019/07/01/learn-markdown/</guid>
+      <description>&lt;p&gt;Learn Markdown&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>http://TecWriterWang.github.io/post/2019/06/30/test/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://TecWriterWang.github.io/post/2019/06/30/test/</guid>
+      <description>&lt;p&gt;Learn HTML&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Learn Circuit</title>
+      <link>http://TecWriterWang.github.io/post/2019/06/25/learn-circuit/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://TecWriterWang.github.io/post/2019/06/25/learn-circuit/</guid>
+      <description>&lt;p&gt;Learn Circuit&lt;/p&gt;</description>
     </item>
     
   </channel>

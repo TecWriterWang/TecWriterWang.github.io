@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en-zh">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.55.6 with theme Tranquilpeak 0.4.3-SNAPSHOT">
+<meta name="author" content="TecWriterWang">
+<meta name="keywords" content="">
+<meta name="description" content="Learn Circuit">
+
+
+<meta property="og:description" content="Learn Circuit">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Learn Circuit">
+<meta name="twitter:title" content="Learn Circuit">
+<meta property="og:url" content="http://TecWriterWang.github.io/post/2019/06/25/learn-circuit/">
+<meta property="twitter:url" content="http://TecWriterWang.github.io/post/2019/06/25/learn-circuit/">
+<meta property="og:site_name" content="Welcome to the TecWriter World">
+<meta property="og:description" content="Learn Circuit">
+<meta name="twitter:description" content="Learn Circuit">
+<meta property="og:locale" content="en-zh">
+
+  
+    <meta property="article:published_time" content="2019-06-25T00:00:00">
+  
+  
+    <meta property="article:modified_time" content="2019-06-25T00:00:00">
+  
+  
+  
+    
+      <meta property="article:section" content="Learn">
+    
+      <meta property="article:section" content="Simple">
+    
+  
+  
+    
+      <meta property="article:tag" content="HTML">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="//d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city-750.jpg">
+  <meta property="twitter:image" content="//d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city-750.jpg">
+
+
+  <meta property="og:image" content="//d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg">
+  <meta property="twitter:image" content="//d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg">
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/86955d781d5996db03c94a345e531f92?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/86955d781d5996db03c94a345e531f92?s=640">
+
+
+    <title>Learn Circuit</title>
+
+    <link rel="icon" href="http://TecWriterWang.github.io/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="http://TecWriterWang.github.io/post/2019/06/25/learn-circuit/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="http://TecWriterWang.github.io/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="http://TecWriterWang.github.io/">Welcome to the TecWriter World</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="http://TecWriterWang.github.io/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.gravatar.com/avatar/86955d781d5996db03c94a345e531f92?s=90" alt="" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="http://TecWriterWang.github.io/#about">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/86955d781d5996db03c94a345e531f92?s=110" alt="" />
+        </a>
+        <h4 class="sidebar-profile-name">TecWriterWang</h4>
+        
+          <h5 class="sidebar-profile-bio"><em>I am leraning work hard!!! Come on</em></h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://TecWriterWang.github.io/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://TecWriterWang.github.io/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://TecWriterWang.github.io/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://TecWriterWang.github.io/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://TecWriterWang.github.io/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/TecWriterWang" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://stackoverflow.com" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-stack-overflow"></i>
+      
+      <span class="sidebar-button-desc">FAQ</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://mp.weixin.qq.com/s/GX8PrkNyJYkVnysZQlio7w" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-contact"></i>
+      
+      <span class="sidebar-button-desc">Contact</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://TecWriterWang.github.io/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+  <div class="post-header-cover
+              text-left
+              "
+       style="background-image:url('//d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg')"
+       data-behavior="4">
+    
+      <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      Learn Circuit
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2019-06-25T00:00:00Z">
+        
+   25, 2019
+
+      </time>
+    
+    
+  
+  
+    <span></span>
+    
+      <a class="category-link" href="http://TecWriterWang.github.io/categories/learn">Learn</a>, 
+    
+      <a class="category-link" href="http://TecWriterWang.github.io/categories/simple">Simple</a>
+    
+  
+
+  </div>
+
+</div>
+    
+  </div>
+
+
+      <div id="main" data-behavior="4"
+        class="hasCover
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>Learn Circuit</p>
+
+<h1 id="模拟电路">模拟电路</h1>
+
+<h2 id="电压符号">电压符号</h2>
+
+<pre><code>  VCC：C=circuit 表示电路的意思, 即`接入电路的电压`；
+  VDD：D=device 表示器件的意思, 即`器件内部的工作电压`（接电源）；
+  VSS：S=series 表示公共连接的意思，通常指电路公共接地端电压(`接地或电源负极`）；
+  VEE：E=electron 表示构成物质的基本粒子之一，因带负电，也写作e，通常指负电压供电；
+  VDDH：H=high 表示高压，即高压供电端。
+  Vpk：信号电压源的峰值
+  Vrms：电源的有效值  
+</code></pre>
+
+<p><a href="https://baike.baidu.com/item/VDD/269755">https://baike.baidu.com/item/VDD/269755</a></p>
+
+<h2 id="模拟信号">模拟信号</h2>
+
+<ol>
+<li><p>在时间上和数值上都是连续的信号成为模拟信号，也就是数学上的连续函数，模拟是一组随时间改变的数据，如某地方的温度变化，车辆在行驶过程中的速度，或电路中某节点的电压幅度等.</p></li>
+
+<li><p><code>测试信号</code>均为正弦波形,模拟电路中的电压或电流是连续函数形式的模拟信号。可以分为线性电路和非线性电路,模拟电路中，像电阻器、电容器、电感组件及变压器的电流和电压信号呈线性的关系，这类的组件称为线性组件，只由线性组件组成的电路为线性电路。线性电路在分析上比较容易。电流和电压信号不呈线性的组件称为非线性组件，像混频器、调制器、真空管、晶体管放大器、运算放大器及振荡器等，若电路有非线性组件，在分析上比较困难，若电压、电流是在一定数值（称为工作点）附近，可以用小信号模型的方式，将非线性组件用线性组件来模拟，以简化分析和计算。模拟电路的组件也可以分为有源组件及被动组件，有源组件属于非线性组件，像晶体管、真空管及运算放大器等。许多模拟电路的特性都是靠有源组件的特性的产生。<br />
+<a href="https://zh.wikipedia.org/wiki/%E7%94%B5%E5%AD%90%E5%AD%A6">https://zh.wikipedia.org/wiki/%E7%94%B5%E5%AD%90%E5%AD%A6</a></p></li>
+</ol>
+
+<h2 id="放大电路">放大电路</h2>
+
+<ol>
+<li><p>信号的放大是最基本的模拟信号处理功能，通过放大电路实现，放大电路也是构成其他模拟电路，ex:滤波(filter),振荡，稳压等功能电路的基本单元电路</p></li>
+
+<li><p>放大电路的放大是指线性放大，即为放大电路输出信号的信息与输入信号完全一致，不减少也不增加，只改变信号幅度或功率的大小，否则，即为<strong>失真</strong></p></li>
+
+<li><p>放大电路为一个双口网络，一个信号输入口和一个信号输出口，一般Us为信号源电压，Rs为信号源内阻，Ri为输入电阻，Ui和Ii分别为输入电压和输入电流，RL为负载电阻，Ro为输出电阻，Uo为输出电压，Io为输出电流</p></li>
+
+<li><p>同相放大电路中输出电压与输入电压相位相同，反向放大电路中输出电压与输入电压相位相反。</p></li>
+
+<li><p><code>虚短：</code>同相放大电路中Uo=A(Up-Un),由于运放增益A十分大，所以(Up-Un)几乎无穷小,所以理想情况下就有Up=Un。</p></li>
+
+<li><p><code>虚段：必须在虚短的前提下</code>。由于运放输入电阻Ri无穷大，输出电阻无穷小，所以输入端电流Ip和In基本没有，故认为断路，就认为在输入端没有损耗。当输入端输入一个很小的电流时，输出端也能得到很大电流。</p></li>
+
+<li><p><code>虚地：</code>反相放大电路中，由于同相端接地（Vp=0），根据虚短所以得到Vp=Vn=0。</p>
+
+<h2 id="理想电压放大电路输出电阻ro为0-输入电阻ri应为无穷大"><code>理想电压放大电路输出电阻Ro为0，输入电阻Ri应为无穷大</code></h2>
+
+<h2 id="电压放大电路适用于信号源内阻rs较小且负载电阻rl较大的场合"><code>电压放大电路适用于信号源内阻Rs较小且负载电阻RL较大的场合</code></h2></li>
+</ol>
+
+<h2 id="三极管-电流型控制器件">三极管(电流型控制器件)</h2>
+
+<p><code>Bipolar jucntion Transistor：</code>双极性结型晶体管，俗称<code>三极管</code>。在同一个硅片上生成三个杂质半导体区域（NPN或者PNP），两两区域交叠共形成两个PN结。</p>
+
+<p><strong><code>BJT结构特点：</code></strong>
+1. 基区很薄并且掺杂浓度很低（P或N），发射区和集电区是同类型的杂质半导体（两个N或两个P）.
+2. 发射区与基区之间的结叫做<code>发射结</code>，集电区与基区之间的结叫做<code>集电结</code>。发射极上的箭头方向一般为发射极加正偏电压是的电流方向。
+3. 发射区掺杂浓度高于集电区，集电区面积大于发射区。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">地址</th>
+<th align="center">图</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left"><a href="https://zh.wikipedia.org/wiki/%E5%8F%8C%E6%9E%81%E6%80%A7%E6%99%B6%E4%BD%93%E7%AE%A1">https://zh.wikipedia.org/wiki/%E5%8F%8C%E6%9E%81%E6%80%A7%E6%99%B6%E4%BD%93%E7%AE%A1</a></td>
+<td align="center"><img src="https://raw.githubusercontent.com/codejavawanghao/git/master/%E4%B8%89%E6%9E%81%E7%AE%A1.jpg" alt="NPN三极管" title="NPN三极管 " /></td>
+</tr>
+</tbody>
+</table>
+
+<p><code>电流放大:</code><strong>电流控制电流，三极管是通过流过基极的电流Ib来控制集电极
+电流Ic，通过接电阻形式来转换成电压放大</strong>。</p>
+
+<p><code>三极管主要用来控制电流的大小</code>，以共发射极接法为例（信号从基极输入，从集电极输出，发射极接地），当基极电压UB有一个微小的变化时，基极电流Ib也会随之有一小的变化，受基极电流Ib的控制，集电极电流Ic会有一个很大的变化，基极电流Ib越大，集电极电流Ic也越大，反之，基极电流越小，集电极电流也越小，即基极电流Ib控制集电极电流Ic的变化。但是集电极电流的变化比基极电流的变化大得多，这就是三极管的电流放大作用。</p>
+
+<h2 id="npn">NPN</h2>
+
+<ol>
+<li><p>基极b，发射极e，集电极c。</p></li>
+
+<li><p><code>截止状态:</code>当Vbe两端电压至少达到0.7V时，三极管才可以达到正常工作状态，否则即为<code>截止状态</code>。三极管工作状态下Vbe两端电压始终保持0.7V。</p></li>
+
+<li><p><code>放大状态:</code>三极管处于<code>放大状态</code>时，发射结加正向偏置电压，集电结加反向偏置电压（ 简称发射结正偏，发射结反偏）。</p>
+
+<ol>
+<li>Vce &gt; Vbe</li>
+<li>Ie = Ib + Ic = （1+β）Ib（说明Ib一定时，Ic与其反偏电压Vce大小无关，只与放大倍数β有关）</li>
+<li>Ic = βIb（其他β为三级管放大倍数，电路中放大系数一般为30~80之间）</li>
+</ol></li>
+
+<li><p><code>饱和状态:</code> 三极管处于<code>饱和状态</code>时，发射结和集电结都加正向偏置电压。</p>
+
+<ol>
+<li>Vce &lt; Vbe</li>
+<li>Ie = Ib + Ic</li>
+<li>Ic随着Vce增大而显著增加。</li>
+</ol></li>
+</ol>
+
+<h2 id="场效应管mos-电压控制性器件-四端-元器件">场效应管MOS(电压控制性器件，<code>四端</code>元器件)</h2>
+
+<p><code>MOS</code>（metal oxide semiconductor金属氧化物半导体）晶体管是目前半导体产业领域常见的基础元件，一般分<code>P型（n型衬底、p沟道）和N型（p型衬底、n沟道）</code>2种，从引脚上分别是栅极G，源极S，漏极D和衬底B，</p>
+
+<p><strong><code>MOS是对称结构，Drain和Source</code></strong></p>
+
+<pre><code>源极的源是指载流子的起点；漏极的漏是指载流子的终点。载流子从源极出发，穿过沟道，到达漏极，从外部看，载流子最终从漏极漏出去了。显然，NMOS和PMOS的载流子是不同的，因此导致了令人困惑的电流方向问题。盯住载流子即可，别被电流方向迷惑。
+
+可以简单地认为，栅极和衬底间的电压超过阈值后，漏极和源极就接通了，而电流大小则是由栅漏源三极间的电压决定。因为MOS是对称结构，所以源极和漏极无区别且可互换。
+
+关于D和S，也就是漏和源，其实是从工艺角度观察的结果。在MOS中，有两种载流子，一种是电子，另一种是空穴，标记为N和P。显然，NMOS的载流子是电子，PMOS的载流子是空穴。NMOS导通后，电子从源极进入沟道，从漏极离开。因为电子的运动方向与电流方向相反，所以电流从NMOS的漏极流向源极。相反地，在PMOS中，虽然空穴也是从源极进入沟道，从漏极离开，但空穴的运动方向与电流方向一致。因此，电流从PMOS的源极流向漏极。
+</code></pre>
+
+<p><code>电压控制电流：</code>场效应管是通过栅极电压来控制漏极电流，MOS管只有四个引脚，即漏极、栅极、源极和衬底。</p>
+
+<h3 id="nmos和pmos的接法是不一样的"><strong>NMOS和PMOS的接法是不一样的</strong></h3>
+
+<p>一般情况下<strong>MOS管的<code>S和B是直接相连的接输入</code>，<code>D端是输出</code>，<code>G端是控制信号</code></strong>。</p>
+
+<p><code>NMOS：</code>漏极D→输出信号、栅极G→输入信号、源极S→低电平(或地)、衬底B→低电平(或地)。
+<code>PMOS：</code>漏极D→输出信号、栅极G→输入信号、源极S→高电平(或电源)、衬底B→高电平(或电源)。</p>
+
+<p><strong>MOS管有用的管脚就是三个：<code>源极、漏极、栅极</code>。多余的管脚或者是同名管脚（在内部和漏极、栅极相连，特别是有些大功率管），或者是空脚（没有内部连接，只起焊接固定作用）</strong>。</p>
+
+<h2 id="光耦">光耦</h2>
+
+<p>一边是<code>发光二极管</code>，一边是<code>光敏三极管</code>，两边需要不同电源供电，以确保两边器件不受干扰，起到<code>隔离的作用</code></p>
+
+<h2 id="发生器件">发生器件</h2>
+
+<p><code>喇叭：</code>无极性器件不分正负极，也是无源蜂鸣器，（<strong><code>不是所有的喇叭都是无极性器件</code></strong>），内部没有振荡源，不能通过直流驱动，只能通过2KHz~5KHz的<code>方波</code>使其发声。</p>
+
+<p><code>蜂鸣器：</code>有极性，长正段负，有源蜂鸣器，内部含有振荡源，使用1.5V~15V电压即可驱动发声。</p>
+
+<h2 id="继电器">继电器</h2>
+
+<p><code>继电器</code>是一种自动开关，通过低电压，小电流去控制高电压，大电流。
+ 特点：有两组电路，一组是低电压控制电路，一组是高电压工作电路。
+ K代表线圈不部分，另一边代表开关部分。
+ ## 数码管
+ LED数码管（LED Segment Displays）由多个发光二极管封装在一起组成“8”字型的器件，引线已在内部连接完成，只需引出它们的各个笔划，公共电极。数码管实际上是由七个发光管组成8字形构成的，加上小数点就是8个。这些段分别由字母a,b,c,d,e,f,g,dp来表示。</p>
+
+<p><code>共阴极:（CATHODE）负极连一起</code>数码管内部所有的二极管<code>负极</code>连接在一起接到CK端，然后CK端接地GND形成回路，其他单独引出来的正极依次接正电压。</p>
+
+<p><code>共阳极：（ANODE）正极连一起</code>数码管内部所有的二极管<code>正极</code>连接在一起接到CK端，然后CK端接电源正极，其他单独引出来的负极依次接地GND形成回路。</p>
+
+<h1 id="数字电路">数字电路</h1>
+
+<ol>
+<li>数字信号(Digital signal)是离散时间信号(Discrete-time signal)的数字化表示，通常可由模拟信号(Analog signal)获得。</li>
+</ol>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small"></span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="http://TecWriterWang.github.io/tags/html/">HTML</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://TecWriterWang.github.io/post/2019/06/30/test/" data-tooltip="test">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml"></span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr"></span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://TecWriterWang.github.io/post/2019/06/25/learn-circuit/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://TecWriterWang.github.io/post/2019/06/25/learn-circuit/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://TecWriterWang.github.io/post/2019/06/25/learn-circuit/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2019 TecWriterWang. 
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://TecWriterWang.github.io/post/2019/06/30/test/" data-tooltip="test">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml"></span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr"></span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://TecWriterWang.github.io/post/2019/06/25/learn-circuit/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://TecWriterWang.github.io/post/2019/06/25/learn-circuit/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://TecWriterWang.github.io/post/2019/06/25/learn-circuit/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2FTecWriterWang.github.io%2Fpost%2F2019%2F06%2F25%2Flearn-circuit%2F">
+          <i class="fa fa-facebook-official"></i><span>%!(EXTRA string=Facebook)</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http%3A%2F%2FTecWriterWang.github.io%2Fpost%2F2019%2F06%2F25%2Flearn-circuit%2F">
+          <i class="fa fa-twitter"></i><span>%!(EXTRA string=Twitter)</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http%3A%2F%2FTecWriterWang.github.io%2Fpost%2F2019%2F06%2F25%2Flearn-circuit%2F">
+          <i class="fa fa-google-plus"></i><span>%!(EXTRA string=Google&#43;)</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/86955d781d5996db03c94a345e531f92?s=110" alt="" />
+    
+    <h4 id="about-card-name">TecWriterWang</h4>
+    
+      <div id="about-card-bio"><em>I am leraning work hard!!! Come on</em></div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        TecWriter
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        China
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center"></div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/07/01/hugo-translation/">
+                <h3 class="media-heading">Hugo Translation</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Hugo Translation</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/07/01/learn-electrical-component/">
+                <h3 class="media-heading">Learn Electrical Component</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Learn Electrical Component</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/07/01/learn-english/">
+                <h3 class="media-heading">Learn English</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Learn English</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/07/01/learn-html5/">
+                <h3 class="media-heading">Learn HTML5</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Learn HTML5</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/07/01/learn-markdown/">
+                <h3 class="media-heading">Learn Markdown</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Learn Markdown</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/06/30/test/">
+                <h3 class="media-heading">test</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jun 6, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Learn HTML</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/06/25/learn-circuit/">
+                <h3 class="media-heading">Learn Circuit</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jun 6, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Learn Circuit</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero=""
+         data-message-one=""
+         data-message-other="">
+         7 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('http://TecWriterWang.github.io/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="http://TecWriterWang.github.io/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+

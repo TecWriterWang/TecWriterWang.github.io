@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en-zh">
+  <head>
+    
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Hugo 0.55.6 with theme Tranquilpeak 0.4.3-SNAPSHOT">
+<meta name="author" content="TecWriterWang">
+<meta name="keywords" content="">
+<meta name="description" content="Learn Electrical Component">
+
+
+<meta property="og:description" content="Learn Electrical Component">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Learn Electrical Component">
+<meta name="twitter:title" content="Learn Electrical Component">
+<meta property="og:url" content="http://TecWriterWang.github.io/post/2019/07/01/learn-electrical-component/">
+<meta property="twitter:url" content="http://TecWriterWang.github.io/post/2019/07/01/learn-electrical-component/">
+<meta property="og:site_name" content="Welcome to the TecWriter World">
+<meta property="og:description" content="Learn Electrical Component">
+<meta name="twitter:description" content="Learn Electrical Component">
+<meta property="og:locale" content="en-zh">
+
+  
+    <meta property="article:published_time" content="2019-07-01T00:00:00">
+  
+  
+    <meta property="article:modified_time" content="2019-07-01T00:00:00">
+  
+  
+  
+    
+      <meta property="article:section" content="Learn">
+    
+      <meta property="article:section" content="Simple">
+    
+  
+  
+    
+      <meta property="article:tag" content="HTML">
+    
+  
+
+
+<meta name="twitter:card" content="summary">
+
+
+
+
+
+
+
+  <meta property="og:image" content="//d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city-750.jpg">
+  <meta property="twitter:image" content="//d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city-750.jpg">
+
+
+  <meta property="og:image" content="//d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg">
+  <meta property="twitter:image" content="//d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg">
+
+
+
+
+  <meta property="og:image" content="https://www.gravatar.com/avatar/86955d781d5996db03c94a345e531f92?s=640">
+  <meta property="twitter:image" content="https://www.gravatar.com/avatar/86955d781d5996db03c94a345e531f92?s=640">
+
+
+    <title>Learn Electrical Component</title>
+
+    <link rel="icon" href="http://TecWriterWang.github.io/favicon.png">
+    
+
+    
+
+    <link rel="canonical" href="http://TecWriterWang.github.io/post/2019/07/01/learn-electrical-component/">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="http://TecWriterWang.github.io/css/style-nnm2spxvve8onlujjlegkkytaehyadd4ksxc1hyzzq9a2wvtrgbljqyulomn.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="http://TecWriterWang.github.io/">Welcome to the TecWriter World</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="http://TecWriterWang.github.io/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://www.gravatar.com/avatar/86955d781d5996db03c94a345e531f92?s=90" alt="" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="http://TecWriterWang.github.io/#about">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/86955d781d5996db03c94a345e531f92?s=110" alt="" />
+        </a>
+        <h4 class="sidebar-profile-name">TecWriterWang</h4>
+        
+          <h5 class="sidebar-profile-bio"><em>I am leraning work hard!!! Come on</em></h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://TecWriterWang.github.io/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://TecWriterWang.github.io/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://TecWriterWang.github.io/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://TecWriterWang.github.io/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archives</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://TecWriterWang.github.io/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/TecWriterWang" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://stackoverflow.com" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-stack-overflow"></i>
+      
+      <span class="sidebar-button-desc">FAQ</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://mp.weixin.qq.com/s/GX8PrkNyJYkVnysZQlio7w" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-contact"></i>
+      
+      <span class="sidebar-button-desc">Contact</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://TecWriterWang.github.io/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+  <div class="post-header-cover
+              text-left
+              "
+       style="background-image:url('//d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg')"
+       data-behavior="4">
+    
+      <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      Learn Electrical Component
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2019-07-01T00:00:00Z">
+        
+   1, 2019
+
+      </time>
+    
+    
+  
+  
+    <span></span>
+    
+      <a class="category-link" href="http://TecWriterWang.github.io/categories/learn">Learn</a>, 
+    
+      <a class="category-link" href="http://TecWriterWang.github.io/categories/simple">Simple</a>
+    
+  
+
+  </div>
+
+</div>
+    
+  </div>
+
+
+      <div id="main" data-behavior="4"
+        class="hasCover
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>Learn Electrical Component</p>
+
+<h1 id="电子相关基础知识">电子相关基础知识</h1>
+
+<h2 id="计算机最小系统-主板-cpu-内存条-ram-电源"><code>计算机最小系统：主板+CPU+内存条(RAM)+电源</code></h2>
+
+<p><a href="https://blog.csdn.net/qq_41453285/article/category/8574249">计算机组成原理</a></p>
+
+<p><a href="https://blog.csdn.net/qq_41453285/article/category/8618377">计算机网络基础</a></p>
+
+<p><a href="https://blog.csdn.net/qq_41453285/article/details/91352075">主板</a></p>
+
+<p><a href="https://blog.csdn.net/qq_41453285/article/category/8493326">MySQL</a></p>
+
+<h2 id="pc上的总线">PC上的总线</h2>
+
+<p><code>数据总线（Data Bus）：</code>在CPU与RAM之间来回传送需要处理或是需要储存的数据。</p>
+
+<p><code>地址总线（Address Bus）：</code>用来指定在RAM（Random Access Memory）之中储存的数据的地址。</p>
+
+<p><code>控制总线（Control Bus）：</code>将微处理器控制单元（Control Unit）的信号，传送到周边设备，一般常见的为USB Bus和1394 Bus。</p>
+
+<p><code>扩展总线（Expansion Bus）：</code>可连接扩展槽和计算机。</p>
+
+<p><code>局部总线（Local Bus）：</code>取代更高速数据传输的扩展总线。</p>
+
+<p><a href="https://zh.wikipedia.org/wiki/%E6%80%BB%E7%BA%BF">https://zh.wikipedia.org/wiki/%E6%80%BB%E7%BA%BF</a></p>
+
+<h2 id="pcie">PCIe</h2>
+
+<ol>
+<li><p><code>Peripheral Component Interconnect Express</code>,快捷外设互联标准,简称PCI-E，官方简称PCIe，是计算机总线PCI的一种，它沿用现有的PCI编程概念及通信标准，但建基于更快的串行通信系统.</p></li>
+
+<li><p>PCIe仅应用于内部互连，PCIe拥有更快的速率，以取代几乎全部现有的内部总线（包括AGP和PCI）.
+<a href="https://zh.wikipedia.org/wiki/PCI_Express">https://zh.wikipedia.org/wiki/PCI_Express</a></p></li>
+</ol>
+
+<h2 id="cpu">CPU</h2>
+
+<ol>
+<li><code>中央处理器</code>（英语：Central Processing Unit，缩写：CPU），是计算机的主要设备之一，功能主要是解释计算机指令以及处理计算机软件中的数据。计算机的可编程性主要是指对中央处理器的编程。1970年代以前，中央处理器由多个独立单元构成，后来发展出由集成电路制造的中央处理器，这些高度收缩的组件就是所谓的微处理器，其中分出的中央处理器最为复杂的电路可以做成单一微小功能强大的单元<br /></li>
+
+<li><p>CPU包括运算器(算术、逻辑（部件：算术逻辑单元、累加器、寄存器组、路径转换器、数据总线）)和控制器(复位、使能（部件：计数器、指令寄存器、指令解码器、状态寄存器、时钟发生器、微操作信号发生器）)</p></li>
+
+<li><p>CPU的性能和速度取决于<code>时钟频率</code>（一般以赫兹或千兆赫兹计算，即hz与Ghz）和<code>每周期可处理的指令</code>（IPC），两者合并起来就是<code>每秒可处理的指令</code>(IPS)<br />
+<a href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8">https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8</a></p></li>
+</ol>
+
+<h2 id="南桥和北桥">南桥和北桥</h2>
+
+<p><a href="https://pcxiaobai.com/pctechnology/technology/20190429/720.html">南桥+北桥</a></p>
+
+<p>CPU把比较慢的bus转包给<code>北桥</code>，北桥把更慢的bus转包给<code>南桥</code>，南桥把更更慢的 bus转包给 <code>Super I/O</code>。</p>
+
+<p><code>北桥</code>负责与CPU通信，并且连接高速设备（内存/显卡），并且与南桥通信.</p>
+
+<p><code>南桥</code>负责与低速设备（硬盘/USB）通信，时钟/BIOS/系统管理/旧式设备控制，并且与北桥通信。</p>
+
+<pre><code>    高速设备
+            CPU——北桥——内存
+            CPU——北桥——显卡
+    低速设备  
+            CPU——北桥——南桥——硬盘
+            CPU——北桥——南桥——网卡
+            CPU——北桥——南桥——PS/2键鼠
+            CPU——北桥——南桥——USB设备
+</code></pre>
+
+<p><img src="https://pic4.zhimg.com/80/v2-36471131bbfba92cd0c8ee9f5a618013_hd.jpg" alt="南桥" title="南桥北桥CPU" /></p>
+
+<h2 id="gpu">GPU</h2>
+
+<ol>
+<li><p><code>Graphics Processing Unit（GPU）</code>，图形处理器，又称显示核心、视觉处理器、显示芯片或绘图芯片，图形处理器可单独与专用电路板以及附属组件组成<code>显卡</code>,图形处理器使显卡减少对中央处理器（CPU）的依赖，并分担部分原本是由中央处理器所担当的工作，尤其是在进行三维绘图运算时，功效更加明显。图形处理器所采用的核心技术有硬件座标转换与光源、立体环境材质贴图和顶点混合、纹理压缩和凹凸映射贴图、双重纹理四像素256位渲染引擎等。</p></li>
+
+<li><p><code>GPU</code> 具有高并行结构（highly parallel structure），所以 GPU 在处理图形数据和复杂算法方面拥有比 CPU 更高的效率。CPU 大部分面积为控制器和寄存器，与之相比，GPU 拥有更多的 ALU（Arithmetic Logic Unit，逻辑运算单元）用于数据处理，而非数据高速缓存和流控制，这样的结构适合对密集型数据进行并行处理。CPU 执行计算任务时，一个时刻只处理一个数据，不存在真正意义上的并行，而 GPU 具有多个处理器核，在一个时刻可以并行处理多个数据。</p></li>
+</ol>
+
+<h2 id="opencl">OpenCL</h2>
+
+<ol>
+<li><code>OpenCL（Open Computing Language</code>，开放计算语言）是一个为异构平台编写程序的框架，此异构平台可由CPU、GPU、DSP、FPGA或其他类型的处理器与硬件加速器所组成。OpenCL由一门用于编写kernels（在OpenCL设备上运行的函数）的语言（基于C99）和一组用于定义并控制平台的API组成。OpenCL提供了基于任务分割和数据分割的并行计算机制。<br />
+<a href="https://zh.wikipedia.org/wiki/OpenCL">https://zh.wikipedia.org/wiki/OpenCL</a></li>
+</ol>
+
+<h2 id="opengl">OpenGL</h2>
+
+<ol>
+<li><code>OpenGL（Open Graphics Library</code>，开放图形库或者开放式图形库）是用于渲染2D、3D矢量图形的跨语言、跨平台的应用程序编程接口（API）。这个接口由近350个不同的函数调用组成，用来从简单的图形比特绘制复杂的三维景象。而另一种程序接口系统是仅用于Microsoft Windows上的Direct3D。OpenGL常用于CAD、虚拟现实、科学可视化程序和电子游戏开发。<br /></li>
+</ol>
+
+<h2 id="openal">OpenAL</h2>
+
+<ol>
+<li><code>OpenAL（Open Audio Library）</code>是自由软件界的跨平台音效API。它设计给多通道三维位置音效的特效表现。OpenAL主要的功能是在来源物体、音效缓冲和收听者中编码。来源物体包含一个指向缓冲器的指针、声音的速度、位置和方向，以及声音强度。收听者物体包含收听者的速度、位置和方向，以及全部声音的整体增益。缓冲里包含8或16位、单声道或立体声PCM格式的音效数据，表现引擎进行所有必要的计算，如距离衰减、多普勒效应等</li>
+</ol>
+
+<h2 id="soc">SOC</h2>
+
+<ol>
+<li><code>System on Chip</code>，简称Soc，也即系统芯片。从狭义角度讲，它是信息系统核心的芯片集成，是将系统关键部件集成在一块芯片上;从广义角度讲， SoC是一个微小型系统，如果说中央处理器(CPU)是大脑，那么SoC就是包括大脑、心脏、眼睛和手的系统。国内外学术界一般倾向将SoC定义为将微处理器、模拟IP核、数字IP核和存储器(或片外存储控制接口)集成在单一芯片上，它通常是客户定制的，或是面向特定用途的标准产品。<br />
+<a href="https://zh.wikipedia.org/wiki/%E7%B3%BB%E7%BB%9F%E8%8A%AF%E7%89%87">https://zh.wikipedia.org/wiki/%E7%B3%BB%E7%BB%9F%E8%8A%AF%E7%89%87</a></li>
+</ol>
+
+<h2 id="dds">DDS</h2>
+
+<ol>
+<li>直接数字合成（<code>Direct Digital Synthesizer，简称DDS</code>）是一种数字电子方式，它从一个单一（或混合）的频率源中产生任意波形和频率。一个基本的DDS电路包括电子控制器、随机访问存储器（RAM）、频率参考源（通常是晶振）、计数器和数模转换器（DAC）。<br />
+<a href="https://zh.wikipedia.org/wiki/%E7%9B%B4%E6%8E%A5%E6%95%B0%E5%AD%97%E5%90%88%E6%88%90">https://zh.wikipedia.org/wiki/%E7%9B%B4%E6%8E%A5%E6%95%B0%E5%AD%97%E5%90%88%E6%88%90</a></li>
+</ol>
+
+<h2 id="directx">DirectX</h2>
+
+<ol>
+<li><code>Direct eXtension</code>，缩写：DX）是由微软公司创建的一系列专为多媒体以及游戏开发的应用程序接口。
+<a href="https://zh.wikipedia.org/wiki/DirectX">https://zh.wikipedia.org/wiki/DirectX</a></li>
+</ol>
+
+<h2 id="afe">AFE</h2>
+
+<ol>
+<li><code>Analog front end</code> 模拟前端：A/D转换前的模拟电路部分。</li>
+</ol>
+
+<h2 id="ram">RAM</h2>
+
+<ol>
+<li><p><code>随机存取存储器/内部存储器</code>（Random Access Memory，缩写：RAM），也叫主存，是与CPU直接交换数据的内部存储器。它可以随时读写（刷新时除外），而且速度很快，通常作为操作系统或其他正在运行中的程序的临时数据存储介质。主存（Main memory）即计算机内部最主要的存储器，用来加载各式各样的程序与数据以供CPU直接运行与运用。</p></li>
+
+<li><p>当电源关闭时RAM不能保留数据。RAM和ROM相比，两者的最大区别是RAM在断电以后保存在上面的数据会自动消失，而ROM则不会。</p></li>
+
+<li><p>RAM 存储器可以进一步分为<code>静态随机存取存储器（SRAM）</code>和<code>动态随机存取存储器（DRAM）</code>两大类。SRAM具有快速访问的优点，但生产成本较为昂贵，一个典型的应用是缓存。而DRAM由于具有较低的单位容量价格，所以被大量的采用作为系统的主存。<br />
+<a href="https://zh.wikipedia.org/wiki/%E9%9A%8F%E6%9C%BA%E5%AD%98%E5%8F%96%E5%AD%98%E5%82%A8%E5%99%A8">https://zh.wikipedia.org/wiki/%E9%9A%8F%E6%9C%BA%E5%AD%98%E5%8F%96%E5%AD%98%E5%82%A8%E5%99%A8</a></p></li>
+</ol>
+
+<h2 id="rom">ROM</h2>
+
+<ol>
+<li><code>只读存储器</code>（Read-Only Memory，缩写：ROM）是一种半导体存储器，其特性是一旦存储数据就无法再将之改变或删除，且内容不会因为电源关闭而消失。在电子或计算机系统中，通常用以存储不需经常变更的程序或数据。</li>
+</ol>
+
+<h2 id="bandwidth">Bandwidth</h2>
+
+<ol>
+<li><code>带宽(BW)</code>表示一个电路能够处理的频率或信号范围，或信号所包含/占有的频率范围。</li>
+<li>数字信道或传输线能够处理的数据量用位/秒(bps)、千位/秒(kbps)、波特率或类似单位表示。</li>
+</ol>
+
+<h2 id="ccd">CCD</h2>
+
+<ol>
+<li><code>电荷耦合器件</code>：数码相机使用的两种主要图像传感器的一种。拍摄照片时，CCD被通过相机镜头的光线感光。数千甚至数百万个微小像素通过CCD将光信号转换成电子。先测量每个像素的累积电荷，然后再将其转换为数字量，最后一步在CCD以外的模数转换器(ADC)中完成。</li>
+</ol>
+
+<h2 id="apd">APD</h2>
+
+<ol>
+<li><code>雪崩光电二极管</code>：利用光电流的雪崩倍增效应提供增益的特性而设计的光电二极管。当反偏电压接近击穿电压时，吸收光子产生的空穴－电子对与离子碰撞时获得足够的能量。产生额外的空穴－电子对，达到倍增效果或信号增益</li>
+</ol>
+
+<h2 id="继电器">继电器</h2>
+
+<ol>
+<li>继电器（<code>relay</code>）是一种电控制器件，是当输入量（激励量）的变化达到规定要求时，在电气输出电路中使被控量发生预定的阶跃变化的一种电器。它具有控制系统（又称输入回路）和被控制系统（又称输出回路）之间的互动关系。通常应用于自动化的控制电路中，它实际上是用小电流去控制大电流运作的一种“自动开关”。故在电路中起着自动调节、安全保护、转换电路等作用。<br />
+<a href="https://zh.wikipedia.org/wiki/%E7%BB%A7%E7%94%B5%E5%99%A8">https://zh.wikipedia.org/wiki/%E7%BB%A7%E7%94%B5%E5%99%A8</a></li>
+</ol>
+
+<h2 id="单片机-微控制器">单片机/微控制器</h2>
+
+<ol>
+<li>单片机（<code>Microcontrollers unit</code>简称<code>MCU</code>）是一种集成电路芯片，是采用超大规模集成电路技术把具有数据处理能力的中央处理器CPU、随机存储器RAM、只读存储器ROM、多种I/O口和中断系统、定时器/计数器等功能（可能还包括显示驱动电路、脉宽调制电路、模拟多路转换器、A/D转换器等电路）集成到一块硅片上构成的一个小而完善的微型计算机系统，在工业控制领域广泛应用。从上世纪80年代，由当时的4位、8位单片机，发展到现在的300M的高速单片机。<br />
+<a href="https://zh.wikipedia.org/wiki/%E5%8D%95%E7%89%87%E6%9C%BA">https://zh.wikipedia.org/wiki/%E5%8D%95%E7%89%87%E6%9C%BA</a></li>
+</ol>
+
+<h2 id="开路">开路</h2>
+
+<ol>
+<li><p><code>开路</code>是指电路中的开关呈关闭状态或去掉一个负载，使<code>电流不能构成回路的电路。也称断路</code>。</p></li>
+
+<li><p>在电路学里面，当电容在一个回路里达到稳定状态(简单说，就是电容的电压等于该回路的电压源所提供的电压)时，电容就被open，该回路就成断路，此情况称为开路。<br />
+<a href="https://zh.wikipedia.org/wiki/%E5%BC%80%E8%B7%AF">https://zh.wikipedia.org/wiki/%E5%BC%80%E8%B7%AF</a></p></li>
+</ol>
+
+<h2 id="采样">采样</h2>
+
+<ol>
+<li><p><code>采样</code>是数字信号处理中的重要概念，它包含两方面内容，简单的说就是<code>抽取</code>和<code>截断</code></p></li>
+
+<li><p><code>抽取</code>就是时域连续的模拟信号按照采样频率进行等间隔提取.</p></li>
+
+<li><p><code>截断</code>就是对时域无限长的模拟信号只取一段时间进行处理。</p></li>
+
+<li><p>经过抽取和截断后，我们就将<code>模拟信号变成数字信号</code>（这里暂不考虑量化）。</p></li>
+
+<li><p><code>相干采样</code>就是采样时截断所取的时间为所要处理信号周期的<code>整数倍</code>.</p></li>
+
+<li><p><code>非相干采样</code>就是采样时截断所取的时间为所要处理信号周期的非整数倍。</p></li>
+</ol>
+
+<p><strong>当然对于<code>非周期信号</code>，就不会有<code>相干采样和非相干采样</code>的概念了</strong>。<br />
+<a href="https://blog.csdn.net/invywyh/article/details/7984106">https://blog.csdn.net/invywyh/article/details/7984106</a></p>
+
+<h2 id="奈奎斯特频率和-过采样">奈奎斯特频率和<code>过采样</code></h2>
+
+<ol>
+<li><p><code>奈奎斯特频率</code>是离散信号系统采样频率的一半，因瑞典裔美国工程师哈里·奈奎斯特 或奈奎斯特－香农采样定理得名。采样定理指出，只要离散系统的奈奎斯特频率高于被采样信号的最高频率或带宽，就可以避免混叠现象。<br />
+<a href="https://zh.wikipedia.org/wiki/%E5%A5%88%E5%A5%8E%E6%96%AF%E7%89%B9%E9%A2%91%E7%8E%87">https://zh.wikipedia.org/wiki/%E5%A5%88%E5%A5%8E%E6%96%AF%E7%89%B9%E9%A2%91%E7%8E%87</a></p></li>
+
+<li><p>在信号处理中，<code>过采样</code>（英语：Oversampling）是指以远远高于信号带宽两倍或其最高频率对其进行采样的过程。数字信号变换成模拟信号会产生量化失真（噪声），这需要模拟低通滤波器滤除，但模拟低通滤波器并非直接滤除截止频率以外的信号、而是大幅减少截止频率以外的信号、同时小幅减少及影响截止频率以内的信号，若能提高低通滤波器的截止频率，则模拟低通滤波器对期待保留的频段（以音响系统为例、就是人耳听得到的20Hz~20KHz）的影响就会降低；过采样可以将量化噪声推往更高频率、让系统可以选用更高截止频率的低通滤波器，借此帮助避免混叠、改善分辨率以及降低噪声。<br />
+<a href="https://zh.wikipedia.org/wiki/%E8%BF%87%E9%87%87%E6%A0%B7">https://zh.wikipedia.org/wiki/%E8%BF%87%E9%87%87%E6%A0%B7</a></p></li>
+</ol>
+
+<h2 id="序列发生器">序列发生器</h2>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small"></span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="http://TecWriterWang.github.io/tags/html/">HTML</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://TecWriterWang.github.io/post/2019/07/01/hugo-translation/" data-tooltip="Hugo Translation">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml"></span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://TecWriterWang.github.io/post/2019/07/01/learn-english/" data-tooltip="Learn English">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr"></span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://TecWriterWang.github.io/post/2019/07/01/learn-electrical-component/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://TecWriterWang.github.io/post/2019/07/01/learn-electrical-component/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://TecWriterWang.github.io/post/2019/07/01/learn-electrical-component/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+            
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2019 TecWriterWang. 
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://TecWriterWang.github.io/post/2019/07/01/hugo-translation/" data-tooltip="Hugo Translation">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml"></span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="http://TecWriterWang.github.io/post/2019/07/01/learn-english/" data-tooltip="Learn English">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr"></span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://TecWriterWang.github.io/post/2019/07/01/learn-electrical-component/">
+              <i class="fa fa-facebook-official"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://TecWriterWang.github.io/post/2019/07/01/learn-electrical-component/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://TecWriterWang.github.io/post/2019/07/01/learn-electrical-component/">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        
+      
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
+</div>
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2FTecWriterWang.github.io%2Fpost%2F2019%2F07%2F01%2Flearn-electrical-component%2F">
+          <i class="fa fa-facebook-official"></i><span>%!(EXTRA string=Facebook)</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http%3A%2F%2FTecWriterWang.github.io%2Fpost%2F2019%2F07%2F01%2Flearn-electrical-component%2F">
+          <i class="fa fa-twitter"></i><span>%!(EXTRA string=Twitter)</span>
+        </a>
+      </li>
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http%3A%2F%2FTecWriterWang.github.io%2Fpost%2F2019%2F07%2F01%2Flearn-electrical-component%2F">
+          <i class="fa fa-google-plus"></i><span>%!(EXTRA string=Google&#43;)</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://www.gravatar.com/avatar/86955d781d5996db03c94a345e531f92?s=110" alt="" />
+    
+    <h4 id="about-card-name">TecWriterWang</h4>
+    
+      <div id="about-card-bio"><em>I am leraning work hard!!! Come on</em></div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        TecWriter
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        China
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center"></div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/07/01/hugo-translation/">
+                <h3 class="media-heading">Hugo Translation</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Hugo Translation</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/07/01/learn-electrical-component/">
+                <h3 class="media-heading">Learn Electrical Component</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Learn Electrical Component</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/07/01/learn-english/">
+                <h3 class="media-heading">Learn English</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Learn English</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/07/01/learn-html5/">
+                <h3 class="media-heading">Learn HTML5</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Learn HTML5</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/07/01/learn-markdown/">
+                <h3 class="media-heading">Learn Markdown</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jul 7, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Learn Markdown</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/06/30/test/">
+                <h3 class="media-heading">test</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jun 6, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Learn HTML</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://TecWriterWang.github.io/post/2019/06/25/learn-circuit/">
+                <h3 class="media-heading">Learn Circuit</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Jun 6, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Learn Circuit</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero=""
+         data-message-one=""
+         data-message-other="">
+         7 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('http://TecWriterWang.github.io/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="http://TecWriterWang.github.io/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+<script lang="javascript">
+window.onload = updateMinWidth;
+window.onresize = updateMinWidth;
+document.getElementById("sidebar").addEventListener("transitionend", updateMinWidth);
+function updateMinWidth() {
+  var sidebar = document.getElementById("sidebar");
+  var main = document.getElementById("main");
+  main.style.minWidth = "";
+  var w1 = getComputedStyle(main).getPropertyValue("min-width");
+  var w2 = getComputedStyle(sidebar).getPropertyValue("width");
+  var w3 = getComputedStyle(sidebar).getPropertyValue("left");
+  main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
+}
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+  
+
+
+
+
+    
+  </body>
+</html>
+
