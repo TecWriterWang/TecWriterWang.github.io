@@ -8,11 +8,7 @@
 
 2. 在你准备运行Hugo的位置新建Hugo文件夹，在新建的Hugo目录下分别新建bin文件夹和Sites文件夹，将解压后的所有文件复制到bin目录下。
 
-<<<<<<< HEAD
-3. **配置PATH路径**。将bin目路的径添加到系统变量的PATH下。设置完成后，打开cmd命令行运行下面的命令来查看是否配置好，若配置成功后则会显示hugo版本。
-=======
 3. **配置PATH路径**。将bin目录的路径添加到系统变量的PATH下。设置完成后，打开cmd命令行运行下面的命令来查看是否配置好，若配置成功后则会显示hugo版本。
->>>>>>> 10058136f5eeb99cee87cac3841dba3f2813518d
 
     ```cmd
     hugo version
@@ -47,7 +43,6 @@
 6. 下载theme，theme地址链接：<https://github.com/gohugoio/hugoThemes> ，然后在hugo的github官网找到想要的theme，然后复制其链接，在cmd中先进入themes文件夹，然后使用下面命令，即可自动下载AllinOne主题。（下载完成后现将下载的主题文件夹名更改成主题名字，有些下载的主题文件夹会自动带上hugo）git clone https://github.com/orianna-zzo/AllinOne.git
 
     ![theme](https://github.com/TecWriterWang/TecWriterWang.github.io/blob/master/%E4%B8%8B%E8%BD%BDblog%E7%9A%84%E4%B8%BB%E9%A2%98.png)
-<<<<<<< HEAD
 
     ```cmd
     cd themes文件夹地址
@@ -70,8 +65,6 @@
 10. 还是在网站根目录下，cmd运行hugo，则会在blog文件夹下生成public文件夹。若想在远程也访问，只需在public文件夹下运行git bash，(参考<https://github.com/TecWriterWang/git/blob/master/readme.txt>）将public文件夹设为git本地仓库，最后再与github的对应仓库远程连接，就实现了github+hugo组成的一个个人网页blog。
 
 11. blog目录下的config.toml，配置用于blog网页排版，涉及的内容较多，需要查看文档以了解具体语法。
-=======
-
     ```cmd
     cd themes文件夹地址
     git clone URL
@@ -93,5 +86,3 @@
 10. 还是在网站根目录下，cmd运行hugo，则会在blog文件夹下生成public文件夹。若想在远程也访问，只需在public文件夹下运行git bash，（参考<https://github.com/TecWriterWang/git/blob/master/readme.txt>）将public文件夹设为git本地仓库，最后再与github的对应仓库远程连接，就实现了github+hugo组成的一个个人网页blog。
 
 11. blog目录下的config.toml，配置用于blog网页排版，涉及的内容较多，需要查看文档以了解具体语法。
-
->>>>>>> 10058136f5eeb99cee87cac3841dba3f2813518d
