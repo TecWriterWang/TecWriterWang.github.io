@@ -1,6 +1,8 @@
-# <http://TecWriterWang.github.io>
+# [My Blog](http://TecWriterWang.github.io)
 
-# 配置参考 https://www.cnblogs.com/zhcncn/p/4097881.html
+# 配置参考
+
+## https://www.cnblogs.com/zhcncn/p/4097881.html
 
 # 安装步骤如下
 
