@@ -1,5 +1,7 @@
 # <http://TecWriterWang.github.io>
 
+# 配置参考 https://www.cnblogs.com/zhcncn/p/4097881.html
+
 # 安装步骤如下
 
 ## 先下载hugo安装包，直接在github (https://github.com/gohugoio/hugo/releases) 可以下载最新的安装包。安装参考: https://gohugo.io/getting-started/
